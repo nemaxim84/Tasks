@@ -19,7 +19,7 @@ public class Main {
         }
 
         int n = 9;   //n-ю цифру последовательности
-
+        int m= 10;
         List<Integer> list = new ArrayList<>();
         for(int i = 1; list.size()<=n;i++)
 
