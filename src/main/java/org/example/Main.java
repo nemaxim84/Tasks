@@ -8,7 +8,6 @@ import java.util.List;
 // click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
 public class Main {
     public static void main(String[] args) {
-        Task8 task7 = new Task8();
-        System.out.println(task7.numberOfSquares(12));
+
     }
 }
