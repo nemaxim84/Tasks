@@ -8,34 +8,8 @@ import java.util.List;
 // click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
 public class Main {
     public static void main(String[] args) {
-        //TIP Press <shortcut actionId="ShowIntentionActions"/> with your caret at the highlighted text
-        // to see how IntelliJ IDEA suggests fixing it.
-        System.out.printf("Hello and welcome!");
-
-        for (int i = 1; i <= 5; i++) {
-            //TIP Press <shortcut actionId="Debug"/> to start debugging your code. We have set one <icon src="AllIcons.Debugger.Db_set_breakpoint"/> breakpoint
-            // for you, but you can always add more by pressing <shortcut actionId="ToggleLineBreakpoint"/>.
-            System.out.println("i = " + i);
-        }
-
-        int n = 9;   //n-ю цифру последовательности
-        int m= 10;
-        List<Integer> list = new ArrayList<>();
-        for(int i = 1; list.size()<=n;i++)
-
-        {
-            List<Integer> listTmp = new ArrayList<>();
-            int a = i * i;
-            int tmp = a;
-            while (tmp > 0) {
-                listTmp.add(tmp % 10);
-                tmp = tmp / 10;
-            }
-            Collections.reverse(listTmp);
-            list.addAll(listTmp);
-        }
-
-        System.out.println(list.get(n-1));
+        Task1 task1 = new Task1();
+        System.out.println(task1.ageString(101));
 
 
     }
