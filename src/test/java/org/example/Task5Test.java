@@ -8,17 +8,17 @@ class Task5Test {
 
     @Test
     void countNumbers4() {
-        Assertions.assertEquals(4, task5.countNumbers(1010), "УСПЕХ 3 года");
+        Assertions.assertEquals(4, task5.countNumbers(1010));
     }
 
     @Test
     void countNumbersNegativeNumber() {
-        Assertions.assertEquals(4, task5.countNumbers(-1000), "УСПЕХ 3 года");
+        Assertions.assertEquals(4, task5.countNumbers(-1000));
     }
 
     @Test
     void countNumbers3() {
-        Assertions.assertEquals(3, task5.countNumbers(777), "УСПЕХ 3 года");
+        Assertions.assertEquals(3, task5.countNumbers(777));
     }
 
 }
