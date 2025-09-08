@@ -19,6 +19,7 @@ class Task1Test {
     void ageString2() {
         Assertions.assertEquals("1 год", task1.ageString(1), "УСПЕХ 1 год");
     }
+
     @Test
     void ageString3() {
         Assertions.assertEquals("117 лет", task1.ageString(117), "УСПЕХ 117 лет");

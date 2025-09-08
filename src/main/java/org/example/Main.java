@@ -8,8 +8,8 @@ import java.util.List;
 // click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
 public class Main {
     public static void main(String[] args) {
-        Task1 task1 = new Task1();
-        System.out.println(task1.ageString(101));
+        Task2 task1 = new Task2();
+        System.out.println(task1.triangleProperty(9,5,6));
 
 
     }

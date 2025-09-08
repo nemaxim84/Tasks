@@ -8,12 +8,11 @@ package org.example;
 
 public class Task1 {
     public String ageString(int a) {
-        if (a % 10 == 0 || a % 10 >= 5 || (a % 100 > 4)&& (a % 100 < 20))
+        if (a % 10 == 0 || a % 10 >= 5 || (a % 100 > 4) && (a % 100 < 20))
             return a + " лет";
         else if (a % 10 == 1) {
             return a + " год";
-        }
-        else
+        } else
             return a + " года";
     }
 
